@@ -11,7 +11,7 @@ CS253 Web Development revamp
 
 1. install Ubuntu version of [Google Cloud SKD](https://cloud.google.com/sdk/docs/#deb)
 2. initialize Google Cloud: `sudo gcloud --project=milanoid-cs253 init`
-3. test run the app locally: `gunicorn main:app` 
+3. test run the app locally: `gunicorn main:app --reload` 
 4. deploy the app to Google Cloud: `sudo gcloud app deploy`
 
 
