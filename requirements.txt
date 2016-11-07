@@ -1,0 +1,4 @@
+webapp2==2.5.2
+# these guys allows to run the webapp2 app locally
+gunicorn
+webob
