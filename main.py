@@ -31,12 +31,12 @@ class Rot13(webapp2.RequestHandler):
                 if character.isupper():
                     rot13_char = chr(ord(character) + 13)
                     if ord(rot13_char) > ord('Z'):
-                        rot13_char = chr(ord(rot13_char) - 25)
+                        rot13_char = chr(ord(rot13_char) - 26)
 
                 elif character.islower():
                     rot13_char = chr(ord(character) + 13)
                     if ord(rot13_char) > ord('z'):
-                        rot13_char = chr(ord(rot13_char) - 25)
+                        rot13_char = chr(ord(rot13_char) - 26)
             else:
                 rot13_char = character
             rot13_text.append(rot13_char)
