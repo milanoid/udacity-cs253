@@ -28,7 +28,7 @@ Encode text using [Rot13](https://en.wikipedia.org/wiki/ROT13) substitution ciph
 * Tag name: Rot13
 * path _/rot13_
 
-## Problem Set 2 = 'User signup'
+## Problem Set 2 - 'User signup'
 
 Signup form with user input validation. Invalid user input renders the form with error messages. Valid input redirects to _/welcome_ page with greetings.
 
