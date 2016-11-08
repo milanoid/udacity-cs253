@@ -10,6 +10,17 @@ rot13_form = """
 </form>
 """
 
+signup_form = """
+<h1>Signup form</h1 required="True">
+<form method="post" action="/signup">
+    <div>Name: <input title="Please, provide your name" type="text" name="username" placeholder="John Doe" required="True"></div>
+    <div>Password: <input title="Please, provide a strong password" type="password" name="password" required="True"></div>
+    <div>Verify passowrd: <input title="Please, verify your password" type="password" name="verifypassword" required="True"></div>
+    <div>Your email: <input title="Please, provide your email address" type="email" name="email" placeholder="your@email.com"></div>
+    <button type="submit">Sign up</button>
+</form>
+"""
+
 
 class Rot13(webapp2.RequestHandler):
     def get(self):
